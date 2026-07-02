@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Student Registration Form
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="title">Student Registration Form</h1>
+    <form>
+    <table>
+
+<tr>
+    <td>Name</td>
+    <td><input type="text" placeholder="Enter your name" required></td>
+</tr>
+
+<tr>
+    <td>Email</td>
+    <td><input type="email" placeholder="Enter your email" required></td>
+</tr>
+
+<tr>
+    <td>Phone</td>
+    <td><input type="tel" placeholder="Enter your number" required></td>
+</tr>
+
+<tr>
+    <td>Password</td>
+    <td><input type="password" placeholder="Enter your password" required></td>
+</tr>
+<tr>
+    <td></td>
+    <td>
+    <label>
+    <input type="checkbox">
+    Show Password
+</label></td>
+</tr>
+
+</table>
+<br>
+    <label>Date of birth</label>
+    <input type="date" required>
+    <br><br>
+
+    <label>Select your College</label><br><br>
+    <select required>
+        <option value="" selected disabled>Select your college</option>
+        <option>PSG</option>
+        <option>PSG iTech</option>
+        <option>CIT</option>
+        <option>KPR</option>
+    </select>
+    <br><br>
+
+    <label><strong>Your Department</strong></label>
+    <br>
+    <input type="radio" name="dept" required>CSE<br>
+    <input type="radio" name="dept">ECE<br>
+    <input type="radio" name="dept">CIVIL<br>
+    <input type="radio" name="dept">MECH<br><br>
+
+    <label><strong>Current Acadamic Year</strong></label>
+    <br>
+    <input type="radio" name="year" required>I<br>
+    <input type="radio" name="year">II<br>
+    <input type="radio" name="year">III<br>
+    <input type="radio" name="year">IV<br><br>
+
+    <label><strong>Gender</strong></label>
+    <input type="radio" name="gender" required>Male
+    <input type="radio" name="gender">Female
+    <br><br>
+   <button type="submit" >Submit</button>
+    <button type="reset" >Reset</button>
+</form>
+<hr>
+<p>Created by Abirami R</p>
+</body>
+</html>

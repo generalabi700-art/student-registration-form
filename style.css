@@ -1,0 +1,49 @@
+h1{
+    color: blue;
+}
+body{
+    background-color: lightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+p{
+    color:red;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+select{
+    width:200px;
+    height: 30px;
+    cursor:pointer;
+    border:3px solid black
+}
+button{
+    background-color: royalblue;
+    color: white;
+    
+}
+#title{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    border: 3px solid black;
+    padding: 8px;
+    margin-top: 2px;
+}
+button:hover{
+    background-color: green;
+    cursor:pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input[type="radio"]{
+    cursor:pointer;
+    accent-color: royalblue;
+    transform: scale(1:1);
+}
+input[type="date"]{
+    cursor:pointer;
+}
