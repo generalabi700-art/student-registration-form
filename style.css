@@ -22,7 +22,12 @@ select{
 button{
     background-color: royalblue;
     color: white;
-    
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 1s;
 }
 #title{
     color: brown;
@@ -46,4 +51,70 @@ input[type="radio"]{
 }
 input[type="date"]{
     cursor:pointer;
+}
+.container{
+    display: flex;
+    gap: 20px;
+}
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    width: 130px;
+    height: 120px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: darkblue;
+    cursor: pointer;
+}
+#html{
+    background-color: red;
+}
+#css{
+    background-color: blue;
+}
+#js{
+    background-color: green;
+}
+
+.card{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 3%;
+    transform: scale(1.2);
+}
+.follow{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transition:transform 1s;
+}
+
+.follow:hover{
+    
+    transform:scale(1.5);
+}   
+.dept{
+    color: gray;
+    margin-top: 5px;
+}
+.name{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
 }
